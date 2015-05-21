@@ -1,7 +1,7 @@
 <style>
-	.page-header{
-		background: url('.../images/header.jpg') no-repeat center center;
-		width: 100%;
+  .page-header{
+    background: url('.../images/header.jpg') no-repeat center center;
+    width: 100%;
 }
 
   .headertext{
@@ -9,62 +9,62 @@
   }
 
 body {
-	background-color: rgb(49,53,61);
+  background-color: rgb(49,53,61);
 }
 
 h1 {
-	font-family: 'Century Gothic', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
-	font-size: 35px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 26.3999996185303px;
-	color: rgb(238,239,247);
+  font-family: 'Century Gothic', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.3999996185303px;
+  color: rgb(238,239,247);
 }
 h2 {
-	font-family: 'Century Gothic', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
-	font-size: 20px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 26.3999996185303px;
-	color: rgb(238,239,247);
+  font-family: 'Century Gothic', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.3999996185303px;
+  color: rgb(238,239,247);
 }
 h3 {
-	font-family: 'Century Gothic', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
-	font-size: 16px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 15.3999996185303px;
-	color: rgb(238,239,247);
+  font-family: 'Century Gothic', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 15.3999996185303px;
+  color: rgb(238,239,247);
 }
 p {
-	font-family: 'Century Gothic', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
-	font-size: 14px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 20px;
-	color: rgb(238,239,247);
+  font-family: 'Century Gothic', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(238,239,247);
 }
 blockquote {
-	font-family: 'Century Gothic', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
-	font-size: 21px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 30px;
-	color: rgb(238,239,247);
+  font-family: 'Century Gothic', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgb(238,239,247);
 }
 pre {
-	font-family: 'Century Gothic', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
-	font-size: 13px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 18.5714282989502px;
-	color: rgb(238,239,247);
+  font-family: 'Century Gothic', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 18.5714282989502px;
+  color: rgb(238,239,247);
 }
 li {
   font-family: 'Century Gothic', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
@@ -114,7 +114,6 @@ li {
   text-decoration: none;
   display: block;
   padding: 15px 25px;
-  vertical-align: text-top;
   font-family: 'Century Gothic', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -126,7 +125,6 @@ li {
   -o-transition: color .25s;
   transition: color .25s;
 }
-
 #cssmenu ul li a:hover {
   color: rgb(146,205,207);
 }
@@ -249,9 +247,15 @@ li {
   color: rgb(146,205,207);
 }
 
-.nav-image{
-  vertical-align: middle;
-  padding: -10px;
+.iconline{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
+.iconline img{
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 </style>

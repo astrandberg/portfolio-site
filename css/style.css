@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-	font-family: 'Century Gothic', Arial, sans-serif;
+	font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-size: 35px;
 	font-style: normal;
 	font-variant: normal;
@@ -22,7 +22,7 @@ h1 {
 	color: rgb(238,239,247);
 }
 h2 {
-	font-family: 'Century Gothic', Arial, sans-serif;
+	font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-size: 20px;
 	font-style: normal;
 	font-variant: normal;
@@ -114,7 +114,7 @@ li {
   text-decoration: none;
   display: block;
   padding: 15px 25px;
-  font-family: 'Century Gothic', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 14px;
@@ -254,7 +254,8 @@ li {
   padding: 15px;
 }
 .iconline img{
-  padding: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 </style>
