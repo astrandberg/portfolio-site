@@ -43,6 +43,18 @@ h3 {
   line-height: 15.3999996185303px;
   color: rgb(238,239,247);
 }
+h4{
+  font-family: 'Raleway 400', 'Century Gothic', 'Franklin Gothic', Arial, sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 15.3999996185303px;
+  color: rgb(238,239,247);
+  margin-top: -2px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
 p {
   font-family: Helvetica, 'Century Gothic', 'Franklin Gothic', Arial, sans-serif;
   font-size: 14px;
@@ -69,6 +81,9 @@ pre {
   font-weight: 400;
   line-height: 18.5714282989502px;
   color: rgb(238,239,247);
+}
+ul{
+  margin-top: 5px;
 }
 li {
   font-family: 'Raleway', 'Century Gothic', 'Franklin Gothic', Arial, sans-serif;
@@ -228,7 +243,7 @@ li {
   margin-right: auto;
   margin-left: auto;
   width: 90%;
-  max-width: 700px;
+  max-width: 750px;
   background: rgb(68,88,120);
 
 }
@@ -256,6 +271,11 @@ li {
   max-width: 600px;
   border-color: rgb(68,88,120);
 }
+.section-container h3{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: rgb(146,205,207);
+}
 
 .quote h1{
   padding: 10px;
@@ -268,10 +288,23 @@ li {
   margin-left: auto;
   margin-right: auto;
   padding: 15px;
+  width: 90%;
+  max-width: 750px;
+  background: rgb(68,88,120);
 }
 .iconline img{
-  padding-right: 10px;
   padding-left: 10px;
+  padding-bottom: 3px;
+  padding-right: 10px;
+  padding-top: 3px;
+}
+
+.iconline h1{
+  font-family: 'Raleway', 'Century Gothic', 'Franklin Gothic', Arial, sans-serif;
+  font-size: 25px;
+  color: rgb(238,239,247);
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 /* Basic Grey */
@@ -286,11 +319,11 @@ li {
 }
 .basic-grey h1 {
     font-size: 25px;
-    padding: 0px 0px 10px 40px;
+    text-align: center;
+    padding: 0px 0px 10px 0px;
     display: block;
-    border-bottom:1px solid #E4E4E4;
     margin: -10px -15px 30px -10px;;
-    color: #888;
+    color: rgb(238,239,247);
 }
 .basic-grey h1>span {
     display: block;
