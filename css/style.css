@@ -283,7 +283,6 @@ li {
     padding: 25px 15px 25px 10px;
     font: 12px 'Raleway', Helvetica, Times, serif;
     color: rgb(238,239,247);
-    border:1px solid rgb(238,239,247);
 }
 .basic-grey h1 {
     font-size: 25px;
@@ -307,7 +306,7 @@ li {
     text-align: right;
     padding-right: 10px;
     margin-top: 10px;
-    color: #888;
+    color: rgb(238,239,247);
 }
 .basic-grey input[type="text"], .basic-grey input[type="email"], .basic-grey textarea, .basic-grey select {
     border: 1px solid #DADADA;
@@ -344,17 +343,15 @@ li {
     height:100px;
 }
 .basic-grey .button {
-    background: #E27575;
+    background: rgb(220,53,34);
     border: none;
     padding: 10px 25px 10px 25px;
     color: #FFF;
-    box-shadow: 1px 1px 5px #B6B6B6;
     border-radius: 3px;
-    text-shadow: 1px 1px 1px #9E3F3F;
     cursor: pointer;
 }
 .basic-grey .button:hover {
-    background: #CF7A7A
+    background: #CF7A7A;
 }
 
 </style>
