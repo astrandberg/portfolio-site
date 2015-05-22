@@ -6,15 +6,14 @@
   .page-header{
     background: url('.../images/header.jpg') no-repeat center center;
     width: 100%;
-}
+  }
 
   .headertext{
     text-align: center;
   }
-
-body {
-  background-color: rgb(49,53,61);
-}
+  body{
+    background-color: #31353D;
+  }
 
 h1 {
   font-family: 'Raleway', 'Century Gothic', 'Franklin Gothic', Arial, sans-serif;
@@ -218,6 +217,27 @@ li {
   #cssmenu ul li a:before {
     display: none;
   }
+  #wrap #right_col #my-image{
+    width: 0%;
+  }
+  #wrap #right_col{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #wrap #left_col{
+    width: 100%;
+    padding: 0px;
+  }
+  .clickable-embed{
+    width: 0%;
+    height: 0%;
+  }
+}
+
+.clickable-embed{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #wrap {
@@ -279,6 +299,7 @@ li {
 
 .quote h1{
   padding: 10px;
+  line-height: 40px;
   text-align: center;
   color: rgb(146,205,207);
 }
