@@ -235,9 +235,10 @@ li {
   }
 }
 
-.clickable-embed iframe{
+.clickable-embed{
   margin-left: auto;
   margin-right: auto;
+  width: 456px;
 }
 
 #wrap {
