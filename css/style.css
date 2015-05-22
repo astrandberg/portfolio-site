@@ -224,6 +224,7 @@ li {
     float: none;
     margin-left: auto;
     margin-right: auto;
+    width: 90%;
   }
   #wrap #left_col{
     width: 100%;
@@ -302,6 +303,10 @@ li {
   padding: 10px;
   line-height: 40px;
   text-align: center;
+  color: rgb(146,205,207);
+}
+.quote h2{
+  padding: 10px;
   color: rgb(146,205,207);
 }
 
